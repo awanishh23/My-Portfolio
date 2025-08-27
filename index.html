@@ -293,63 +293,41 @@
            onclick="location.href='./#projects'"
         />
   </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="./assets/calculator-project 1.png"
-              alt="Project 1"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Calculator</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/awanishh23/Calculator'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/awanishh23/Calculator/blob/main/live%20demo.mp4'"
-            >
-              Live Demo
-            </button>
-          </div>
+ <!-- Projects Section with Flip Cards -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="flip-card-container">
+    <!-- Project 1 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="project1.jpg" alt="Project 1" />
+          <h3>Project One</h3>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img
-              src="assets/project2.png"
-              alt="Project 2"
-              class="project-img"
-            />
-          </div>
-          <h2 class="experience-sub-title project-title">Tik-Tac-Toe Game</h2>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/awanishh23/tiktaktoe-game'"
-            >
-              Github
-            </button>
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://tiktaktoe-game-mu.vercel.app/'"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-          </div>
+        <div class="flip-card-back">
+          <h3>Project One</h3>
+          <a href="https://github.com/youruser/project1" target="_blank" class="btn">GitHub</a>
+          <a href="https://yourdemo1.com" target="_blank" class="btn">Live Demo</a>
         </div>
       </div>
     </div>
+    <!-- Project 2 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="project2.jpg" alt="Project 2" />
+          <h3>Project Two</h3>
+        </div>
+        <div class="flip-card-back">
+          <h3>Project Two</h3>
+          <a href="https://github.com/youruser/project2" target="_blank" class="btn">GitHub</a>
+          <a href="https://yourdemo2.com" target="_blank" class="btn">Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+</section>
     <img
       src="./assets/arrow.png"
       alt="Arrow icon"
